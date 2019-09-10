@@ -1,0 +1,112 @@
+<p>title:</p>
+<h2 id="toc-true"><a href="#toc-true" class="headerlink" title="toc: true"></a>toc: true</h2><p align="center" class="has-mb-6">
+<img class="not-gallery-item" style="height:48px" src="/hexo-theme-icarus/images/logo.svg">
+<br> A simple, delicate, and modern theme for the static site generator Hexo.
+</p>
+<p class="is-size-6 has-text-centered">
+<a href="http://ppoffice.github.io/hexo-theme-icarus/">Preview</a> |
+<a href="http://ppoffice.github.io/hexo-theme-icarus/categories/">Documentation</a> |
+<a href="https://github.com/ppoffice/hexo-theme-icarus/archive/master.zip">Download</a>
+</p>
+
+<p><img src="/hexo-theme-icarus/gallery/preview.png" alt="Icarus" title="Icarus Preview"></p>
+<h3 id="gift-Features"><a href="#gift-Features" class="headerlink" title=":gift: Features"></a>:gift: Features</h3><p><strong>Extensive Plugin Support</strong></p>
+<p>Icarus includes plentiful search, comment, sharing and other plugins out of the box. You can choose any of them to enrich your
+blog experience, or build your own plugin easily referring to the existing Icarus plugins.</p>
+<p>Comment plugins</p>
+<ul>
+<li><a href="/hexo-theme-icarus/Plugins/Comment/changyan-comment-plugin/">Changyan</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Comment/disqus-comment-plugin/">Disqus</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Comment/facebook-comment-plugin/">Facebook</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Comment/gitment-comment-plugin/">Gitment</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Comment/isso-comment-plugin/">Isso</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Comment/livere-comment-plugin/">LiveRe</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Comment/valine-comment-plugin/">Valine</a></li>
+</ul>
+<p>Search plugins</p>
+<ul>
+<li><a href="/hexo-theme-icarus/Plugins/Search/insight-search-plugin/">Insight Search</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Search/google-cse-plugin/">Google Custom Search Engine</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Search/baidu-search-plugin/">Baidu Site Search</a></li>
+</ul>
+<p>Share plugins</p>
+<ul>
+<li><a href="/hexo-theme-icarus/Plugins/Share/addthis-share-plugin/">AddThis</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Share/addtoany-share-plugin/">AddToAny</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Share/baidu-share-plugin/">Baidu Share</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Share/share-js-share-plugin/">Share.js</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Share/sharethis-share-plugin/">ShareThis</a></li>
+</ul>
+<p>Donation Buttons</p>
+<ul>
+<li><a href="/hexo-theme-icarus/Plugins/Donation/making-money-off-your-blog-with-donation-buttons/#Alipay">Alipay</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Donation/making-money-off-your-blog-with-donation-buttons/#Wechat">Wechat</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Donation/making-money-off-your-blog-with-donation-buttons/#Paypal">Paypal</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/Donation/making-money-off-your-blog-with-donation-buttons/#Patreon">Patreon</a></li>
+</ul>
+<p>Other plugins</p>
+<ul>
+<li><a href="/hexo-theme-icarus/Configuration/Posts/hexo-built-in-tag-helpers/">Hexo Tag Plugin</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/General/gallery-plugin/">lightGallery &amp; Justified Gallery</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/General/mathjax-plugin/">MathJax</a></li>
+<li><a href="/hexo-theme-icarus/Plugins/General/site-analytics-plugin/">Site Analytics</a></li>
+</ul>
+<p><strong>Rich Code Highlight Theme Choices</strong></p>
+<p>Icarus directly import code highlight themes from the <a href="https://highlightjs.org/">highlight.js</a> package, and makes more than
+70 highlight themes available to you.</p>
+<div class="columns is-multiline is-mobile">
+<div class="column is-half-mobile"><img src="/hexo-theme-icarus/gallery/code-highlight/atom-one-light.png"></div>
+<div class="column is-half-mobile"><img src="/hexo-theme-icarus/gallery/code-highlight/monokai.png"></div>
+<div class="column is-half-mobile"><img src="/hexo-theme-icarus/gallery/code-highlight/androidstudio.png"></div>
+</div>
+
+<p><strong>Elastic Theme Configuration</strong></p>
+<p>In addition to the minimalistic and easy-to-understand configuration design, Icarus allows you to set configurations on a
+per-page basis with the ability to merge and override partial configurations.</p>
+<div class="columns is-multiline">
+    <div class="column is-half is-12-mobile">
+        {% codeblock lang:yaml _config.yml %}
+        menu:
+          Archives: /archives
+          Categories: /categories
+          Tags: /tags
+          About: /about
+        {% endcodeblock %}
+        <img class="not-gallery-item" style="height:44px" src="/hexo-theme-icarus/gallery/navbar/main-config.png">
+    </div>
+    <div class="column is-half is-12-mobile">
+        {% codeblock lang:yaml post.md %}
+        title: A Simple Post
+        menu:
+          Go Home: /index.html
+        ---
+        # Here is some simple markdown.
+        {% endcodeblock %}
+        <img class="not-gallery-item" style="height:44px" src="/hexo-theme-icarus/gallery/navbar/post-config.png">
+    </div>
+</div>
+
+<p><strong>Responsive Layout</strong></p>
+<p>No matter what modern browsering device your audiences are using, they can always get the best experience because Icarus’s responsive
+layout across multiple viewpoints.</p>
+<p><img src="/hexo-theme-icarus/gallery/responsive.png" alt="Responsive Layout"></p>
+<h3 id="cd-Installation"><a href="#cd-Installation" class="headerlink" title=":cd: Installation"></a>:cd: Installation</h3><p>Download &amp; extract or <code>git clone</code> Icarus from GitHub to your blog’s theme folder, and that’s it!</p>
+<p><code>shell
+git clone https://github.com/ppoffice/hexo-theme-icarus.git themes/icarus</code></p>
+<p>Once started, Icarus will remind you of any missing dependencies and configuration files.</p>
+<h3 id="hammer-Development"><a href="#hammer-Development" class="headerlink" title=":hammer: Development"></a>:hammer: Development</h3><p>This project is built with</p>
+<ul>
+<li>Hexo 3.7.1</li>
+<li>Ejs</li>
+<li>Stylus</li>
+<li>Bulma 0.7.2</li>
+</ul>
+<p>Please refer to the documentation for Icarus implementation details.</p>
+<h3 id="tada-Contribute"><a href="#tada-Contribute" class="headerlink" title=":tada: Contribute"></a>:tada: Contribute</h3><p>If you feel like to help us build a better Icarus, you can</p>
+<ul>
+<li>:electric_plug: Write a plugin</li>
+<li>:black_nib: <a href="https://github.com/ppoffice/hexo-theme-icarus/new/site/source/_posts">Submit a tutorial</a></li>
+<li>:triangular_flag_on_post: <a href="https://github.com/ppoffice/hexo-theme-icarus/issues/new">Report a bug</a></li>
+<li>:earth_asia: <a href="https://github.com/ppoffice/hexo-theme-icarus/tree/master/languages">Add a translation</a></li>
+</ul>
+<h3 id="memo-License"><a href="#memo-License" class="headerlink" title=":memo: License"></a>:memo: License</h3><p>This project is licensed under the MIT License - see the <a href="https://github.com/ppoffice/hexo-theme-icarus/blob/master/LICENSE">LICENSE</a> file for details.</p>
